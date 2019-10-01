@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+body {
+  background-color: rgb(206, 52, 52);
+  color: white;
+}
 #mainHeading {
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
@@ -9,14 +12,10 @@
   margin-left: 200px;
   margin-right: 200px;
 }
-p , ul {
-  text-align: center;
-  margin-left: 350px;
-  margin-right: 350px;
-}
 ul {
   list-style: none;
 }
+
 #funFacts {
   font-family: 'Roboto', sans-serif;
   padding: 10px;
