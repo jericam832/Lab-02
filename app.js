@@ -38,3 +38,13 @@ if (favoriteFood === 'n' || favoriteFood === 'no') {
   alert('Nope, but I do like pizza.');
 }
 
+//Question 4
+var dogQuestion = prompt('Is my dog\'s name Polly?');
+dogQuestion = dogQuestion.toLowerCase();
+
+if (dogQuestion === 'n' || dogQuestion === 'no') {
+  alert('Yes! You remembered her name.');
+  console.log('Correct!');
+} else {
+  alert('Incorrect answer. Her name is Joy.');
+}

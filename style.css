@@ -9,13 +9,10 @@ body {
   text-align: center;
   padding: 20px;
   margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 ul {
   list-style: none;
 }
-
 #funFacts {
   font-family: 'Roboto', sans-serif;
   padding: 10px;
