@@ -48,3 +48,13 @@ if (dogQuestion === 'n' || dogQuestion === 'no') {
 } else {
   alert('Incorrect answer. Her name is Joy.');
 }
+//Question 5
+var workBackground = prompt('Prior to coming to Code Fellows, did I work as a teacher?');
+workBackground = workBackground.toLowerCase();
+
+if (workBackground === 'n' || workBackground === 'no') {
+  alert('Right. I work in IT.');
+  console.log('Right!');
+} else {
+  alert('Wrong. I was never a teacher.');
+}
