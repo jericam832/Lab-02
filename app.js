@@ -4,7 +4,7 @@ var firstName = prompt('What is your name?');
 
 alert('Hello ' + firstName + "!");
 //Question 1
-var stateQuestion= prompt('Am I from Florida?');
+var stateQuestion= prompt('1. Am I from Florida?');
 stateQuestion = stateQuestion.toLowerCase();
 
 if (stateQuestion === 'y' || stateQuestion === 'yes') {
@@ -18,7 +18,7 @@ else if (stateQuestion === 'n' || stateQuestion === 'no') {
   alert('I don\'t know what that means, but okay.');
 }
 //Question 2
-var favoriteColor = prompt('Is my favorite color red?');
+var favoriteColor = prompt('2. Is my favorite color red?');
 favoriteColor = favoriteColor.toUpperCase();
 
 if (favoriteColor === 'Y' || favoriteColor === 'YES') {
@@ -30,11 +30,11 @@ if (favoriteColor === 'Y' || favoriteColor === 'YES') {
   alert('Invalid response.');
 }
 //Question 3
-var favoriteFood = prompt('Is my favorite food pizza?');
+var favoriteFood = prompt('3. Is my favorite food pizza?');
 favoriteFood = favoriteFood.toLowerCase();
 
 if (favoriteFood === 'n' || favoriteFood === 'no') {
-  alert('Yep. You know me so well. I love burgers!');
+  alert('4.Yep. You know me so well. I love burgers!');
   // console.log('Correct!');
 } else if (favoriteFood === 'y' || favoriteFood === 'yes'){
   alert('Nope, but I do like pizza.');
@@ -43,7 +43,7 @@ if (favoriteFood === 'n' || favoriteFood === 'no') {
 }
 
 //Question 4
-var dogQuestion = prompt('Is my dog\'s name Polly?');
+var dogQuestion = prompt('4. Is my dog\'s name Polly?');
 dogQuestion = dogQuestion.toLowerCase();
 
 if (dogQuestion === 'n' || dogQuestion === 'no') {
@@ -55,7 +55,7 @@ if (dogQuestion === 'n' || dogQuestion === 'no') {
   alert('You entered an invalid answer.');
 }
 //Question 5
-var workBackground = prompt('Prior to coming to Code Fellows, did I work as a teacher?');
+var workBackground = prompt('5. Prior to coming to Code Fellows, did I work as a teacher?');
 workBackground = workBackground.toLowerCase();
 
 if (workBackground === 'n' || workBackground === 'no') {
@@ -65,6 +65,27 @@ if (workBackground === 'n' || workBackground === 'no') {
   alert('Wrong. I was never a teacher.');
 } else {
   alert('It\'s a yes or no question.')
+}
+
+var secretNumber = 9;
+// var userNumber = prompt(firstName + " please guess my secret number(1-10): ");
+
+for (var guess = 0; guess < 4; guess++) {
+  var userNumber = prompt(firstName + " please guess my secret number(1-10): ");
+
+  if (userNumber == secretNumber) {
+    alert("Correct! You did it!");
+    break;
+  }
+  if (userNumber < secretNumber) {
+    alert("Guess a higher number!");
+  }
+  if (userNumber > secretNumber) {
+    alert("Guess a lower number!");
+  }
+  if (guess >= 3) {
+    alert("Sorry the correct answer is " + secretNumber + "!");
+  }
 }
 
 alert('That\'s it! Thank you for getting to know me, ' + firstName + '!!!');
