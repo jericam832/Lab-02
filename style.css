@@ -1,23 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-  background-color: rgb(206, 52, 52);
+  background-color:whitesmoke;
   color: white;
+  padding: 0 200px;
 }
-#mainHeading {
+header {
+  background-color: white;
+  color: black;
   font-family: 'Roboto', sans-serif;
-  text-decoration: underline;
-  text-align: center;
+  text-align: left;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+main {
+  margin-top: 150px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 6px;
+}
+.brand {
   padding: 20px;
-  margin-top: 50px;
+  font-size: 32px;
 }
 ul {
   list-style: none;
 }
-#funFacts {
+h2 {
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: whitesmoke;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  position: fixed;
+  background-color: white;
+  color: black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   padding: 10px;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
-
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
