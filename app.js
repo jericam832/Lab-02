@@ -24,7 +24,7 @@ favoriteColor = favoriteColor.toUpperCase();
 if (favoriteColor === 'Y' || favoriteColor === 'YES') {
   alert('You are correct!');
   // console.log('Correct!');
-} else if (favoriteColor === 'n' || favoriteColor === 'no') {
+} else if (favoriteColor === 'N' || favoriteColor === 'NO') {
   alert('Um...wrong! I love the color red.');
 } else {
   alert('Invalid response.');
