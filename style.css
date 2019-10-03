@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-body {
-  background-color:whitesmoke;
-  color: black;
-  padding: 0 200px;
+html {
+  background-image: url('/img/pipes.png');
 }
-header {
+body {
+  color: black;
+  padding-top: 75px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 200px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body > header > div{
   background-color: white;
   color: black;
   font-family: 'Roboto', sans-serif;
@@ -15,74 +20,109 @@ header {
   top: 0;
   width: 100%;
 }
+div { 
+  background-color: whitesmoke;
+}
+#nav-list {
+  padding-right: 50px;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+.nav-link {
+  border: 1.5px solid black;
+  float: right;
+  padding: 10px;
+  margin-left: 10px;
+  background: black;
+  color: white;
+}
+.nav-link:hover {
+  background: whitesmoke;
+  color: black;
+}
+#nav-list > li > a:after {
+  color: white;
+}
+#nav-list > li > a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+}
+
 main {
-  margin-top: 150px;
-  margin-bottom: 150px;
   padding: 25px;
-  border-radius: 6px;
+}
+#myName {
+  text-decoration: none;
+}
+#travels {
+  text-align: center;
+}
+.brand {
+  float: left;
+  margin-left: 25px;
 }
 .brand , h1 {
   padding: 20px;
   font-size: 32px;
+  text-align: left;
+  text-decoration: none;
 }
-#top > h1 {
+#about > h1 {
   display: block;
   text-align: center;
 }
 
-h2 , h3{
+h1 {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
   margin-bottom: 5px;
-}
-div {
   display: block;
+  text-align: center;
+
 }
-.mainText, #funFacts, #top > ul {
+.mainText, #funFacts, #about > ul {
   padding-left: 200px;
   padding-right: 200px;
 }
-#top {
-  background-color: white;
-  margin-bottom: 50px;
-  border-radius: 6px;
+
+#topTen {
+  padding-left: 100px;
+  padding: 35px;
+  height: 325px;
 }
-#bottom {
-  margin-bottom: 50px;
-  background-color: dodgerblue;
-  padding: 25px;
-  border-radius: 6px;
+#experience {
+  height: 325px;
+  padding: 25px 25px 100px 25px;
 }
-#right {
-  background-color: tomato;
-  padding: 25px;
-  border-radius: 6px;
-}
+
 #avatar {
   padding-bottom: 20px;
-  width: 250px;
+  width: 300px;
   margin: 0 auto;
   display: block;
   border-radius: 6px;
 }
-#dogPic1 {
-  width: 300px;
+#dogPic1, #dogPic2 {
   margin-left: 200px;
   margin-right: 20px;
-  /* display: inline-block; */
-  border-radius: 6px;
+  margin-bottom: 50px;
+}
+#dogPic1 {
+  width: 300px;
 }
 #dogPic2 {
-  width: 300px;
+  width: 320px;
   margin-left: 30px;
-  margin-right: 200px;
-  /* display: inline-block; */
-  border-radius: 6px;
 }
-
+#cityPic {
+  width: 600px;
+  float: right;
+}
 ul {
-  list-style: none;
   padding-bottom: 25px;
 }
 

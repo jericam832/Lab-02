@@ -72,14 +72,13 @@ if (workBackground === 'n' || workBackground === 'no') {
 } else {
   alert('It\'s a yes or no question. Come on. -_-');
 }
-
 //Question 6
 var secretNumber = 9;
 
 for (var guess = 0; guess < 4; guess++) {
-  var userNumber = prompt('6.' + firstName + ' please guess my secret number(1-10): ');
-
-  if (userNumber == secretNumber) {
+  var userNumber = prompt('6. ' + firstName + ' please guess my secret number(1-10): ');
+  userNumber = parseInt(userNumber);
+  if (userNumber === secretNumber) {
     alert('Correct! You did it!');
     count++;
     break;
@@ -99,11 +98,12 @@ var fruits = ['grapes', 'plums', 'strawberries', 'oranges', 'pineapples', 'water
 var foundMatch = false;
 
 for (var i = 0; i < 6; i++) { //turns
-  var favoriteFruit = prompt('Guess what kind of fruit I like?');
+  var favoriteFruit = prompt('7. Guess what kind of fruit I like?');
   for (var j = 0; j < fruits.length; j++) { //fruit index
     if (favoriteFruit === fruits[j]) {
       foundMatch = true;
       alert('Right! Good job! I do enjoy eating ' + favoriteFruit + '.');
+      alert('I like to eat these fruits' + fruits + '.');
       count++;
       break;
     }
@@ -116,7 +116,5 @@ for (var i = 0; i < 6; i++) { //turns
     alert('Sorry, you ran out of guesses.' + ' I like to eat ' + fruits[j] + '!');
 
   }
-
 }
-
-alert('Your score is ' + count + ' out of 7! \n' + 'That\'s it! Thank you for getting to know me, ' + firstName + '!!! Have an awesome day!');
+alert('So, how did you you do on my little quiz?\nYour score is ' + count + ' out of 7! \n' + 'That\'s it! Thank you for getting to know me, ' + firstName + '!!! Have an awesome day!');
