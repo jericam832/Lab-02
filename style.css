@@ -17,23 +17,64 @@ header {
 }
 main {
   margin-top: 150px;
+  margin-bottom: 150px;
   background-color: white;
   padding: 25px;
   border-radius: 6px;
 }
-.brand {
+.brand , h1 {
   padding: 20px;
   font-size: 32px;
 }
-ul {
-  list-style: none;
+#top > h1 {
+  display: block;
+  text-align: center;
 }
-h2 {
+
+h2 , h3{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
   margin-bottom: 5px;
 }
+div {
+  display: inline-block;
+}
+.mainText, #funFacts, #top > ul {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#top {
+  margin-bottom: 150px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+#bottom {
+  margin: 30px 50px;
+  background-color: dodgerblue;
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+#right {
+  background-color: tomato;
+  padding: 25px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+#avatar {
+  padding-bottom: 20px;
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  padding-bottom: 25px;
+}
+
 
 @media only screen and (max-width: 600px) {
   body {
