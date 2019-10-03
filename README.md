@@ -24,7 +24,9 @@ Added a 7th question that asks the user to guess which fruit I like to eat. The 
 
 Collaboraters:
 Krystal Madrinan
+<br>
 Jerica Mitchell
+<br>
 Krystal cloned my Lab 02 repo to her computer and we completed the assignment by making the following changes:
 <ol>
 <li>Placed each question into a function.</li>
