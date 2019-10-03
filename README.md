@@ -15,6 +15,6 @@ Answer each question with yes/no or y/n. If not, you will get an alert for enter
 
 # Update Lab03:
 Added a 6th question that asks the user to guess a number between 1 and 10. The user gets 4 chances be for the answer is revealed.
-\n
+<br>
 Added a 7th question that asks the user to guess which fruit I like to eat. The user gets 6 chances be for the answer is revealed.
 
