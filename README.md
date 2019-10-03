@@ -22,7 +22,7 @@ Added a 7th question that asks the user to guess which fruit I like to eat. The 
 
 # Lab 04 Update:
 
-Collaboraters:
+Collaboraters: <br>
 Krystal Madrinan
 <br>
 Jerica Mitchell
