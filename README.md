@@ -13,3 +13,10 @@ Running the tests
 Answer each question with yes/no or y/n. If not, you will get an alert for entering an invalid response.
 
 
+# Update Lab03:
+A counter variable was added to keep track of the number of questions the user got correct. The total score is revealed with the ending prompt.
+<br>
+Added a 6th question that asks the user to guess a number between 1 and 10. The user gets 4 chances before the answer is revealed.
+<br>
+Added a 7th question that asks the user to guess which fruit I like to eat. The user gets 6 chances before the answer is revealed.
+
