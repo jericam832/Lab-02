@@ -20,3 +20,15 @@ Added a 6th question that asks the user to guess a number between 1 and 10. The 
 <br>
 Added a 7th question that asks the user to guess which fruit I like to eat. The user gets 6 chances before the answer is revealed.
 
+# Lab 04 Update:
+
+Collaboraters:
+Krystal Madrinan
+Jerica Mitchell
+Krystal cloned my Lab 02 repo to her computer and we completed the assignment by making the following changes:
+<ol>
+<li>Placed each question into a function.</li>
+<li>Called each named function.</li>
+<li>Tested About Me program.</li>
+<li>Fixed issue with linter. A semi-colon was missing after 'use strict'.</li>
+</ol>

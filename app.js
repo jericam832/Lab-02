@@ -25,8 +25,6 @@ function guessState() {
 }
 guessState();
 
-
-
 //Question 2
 function guessColor() {
   var favoriteColor = prompt('2. Is my favorite color red?');
