@@ -8,13 +8,13 @@ html {
 body {
   color: white;
   padding-top: 75px;
-  /* padding-right: 150px; */
-  /* padding-left: 150px; */
+  /* padding-right: 150px;
+  padding-left: 150px; */
   /* padding-bottom: 75px; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body > header > div{
-  background-color: #c71f16;
+  background-color: #2d3436;
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: left;
@@ -37,11 +37,11 @@ div {
   float: right;
   padding: 10px;
   margin-left: 10px;
-  background: #c71f16;
+  background: #2d3436;
   color: white;
 }
 .nav-link:hover {
-  background: rgb(117, 12, 12);
+  background: rgb(82, 80, 80);
   color: white;
 }
 #nav-list > li > a:after {
@@ -61,6 +61,9 @@ div {
 #nav-list > li > a:hover {
   color: black;
   border: none;
+}
+.navigation {
+  padding-bottom: 10px;
 }
 
 ul li {
@@ -90,9 +93,9 @@ a {
   float: left;
   margin-left: 25px;
 }
-.brand , h1 {
+.brand, h1 {
   padding: 20px;
-  font-size: 32px;
+  font-size: 24px;
   text-align: left;
   text-decoration: none;
 }
@@ -158,14 +161,14 @@ ul {
 
 footer {
   position: relative;
-  background-color: whitesmoke;
-  color: #c71f16;
+  background-color: #2d3436;
+  color: white;
+  padding: 10px;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Roboto', sans-serif;
 }
