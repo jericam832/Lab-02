@@ -3,7 +3,6 @@
 var firstName = prompt('What is your name?');
 var count = 0;
 // console.log('firstName: ', firstName);
-
 alert('Hello ' + firstName + '!');
 
 //Question 1
@@ -15,7 +14,7 @@ function guessState() {
     alert('Ahh! Wrong! I am from the great state of Texas.');
   }
   else if (stateQuestion === 'n' || stateQuestion === 'no') {
-    alert('You are correct. Thank you.');
+    alert('You are correct. I am from Texas.');
     count++;
     // console.log('You are correct!');
   }
@@ -37,7 +36,7 @@ function guessColor() {
   } else if (favoriteColor === 'N' || favoriteColor === 'NO') {
     alert('Um...wrong! I love the color red.');
   } else {
-    alert('Invalid response.');
+    alert('Invalid response. Just answer the question!');
   }
 }
 guessColor();
@@ -68,13 +67,13 @@ function guessDog() {
   dogQuestion = dogQuestion.toLowerCase();
 
   if (dogQuestion === 'n' || dogQuestion === 'no') {
-    alert('Yes! You remembered that her name is Joy.');
+    alert('Right! Her name is Joy.');
     count++;
     // console.log('Correct!');
   } else if (dogQuestion === 'y' || dogQuestion === 'yes') {
     alert('Incorrect answer. Her name is Joy.');
   } else {
-    alert('You entered an invalid answer.');
+    alert('Hey! You entered an invalid answer.');
   }
 }
 guessDog();
@@ -135,7 +134,7 @@ function guessFavoriteFruit() {
       if (favoriteFruit === fruits[j]) {
         foundMatch = true;
         alert('Right! Good job! I do enjoy eating ' + favoriteFruit + '.');
-        alert('I like to eat these fruits' + fruits + '.');
+        alert('I like to eat these fruits ' + fruits + '.');
         count++;
         break;
       }
@@ -143,7 +142,7 @@ function guessFavoriteFruit() {
     if (foundMatch === true) { //escape loop once a match is found
       break;
     }
-    alert('Guess again!'); //wrong answer alert
+    alert('Wrong. Wrong. Wrong. Guess again!'); //wrong answer alert
     if (i >= 5) {
       alert('Sorry, you ran out of guesses.' + ' I like to eat ' + fruits[j] + '!');
 
@@ -152,4 +151,4 @@ function guessFavoriteFruit() {
 }
 guessFavoriteFruit();
 
-alert('So, how did you you do on my little quiz?\nYour score is ' + count + ' out of 7! \n' + 'That\'s it! Thank you for getting to know me, ' + firstName + '!!! Have an awesome day!');
+alert('So, how did you do on my little quiz?\nYour score is ' + count + ' out of 7! \n' + 'That\'s it! Thank you for getting to know me, ' + firstName + '!!! \nHave an awesome day!');
